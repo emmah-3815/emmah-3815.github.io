@@ -12,8 +12,8 @@ taxonomies:
 
 menu:
     main:
-        - name: resume
-          url: resume/
+        - name: experience
+          url: experience/
           weight: 5 
         - name: research
           url: research/
@@ -37,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["resume","research","about"]
+    MainSections: ["experience","research","about"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -49,12 +49,12 @@ params:
           enabled: true
           title: Emma Huang
           subtitle: "I am a fourth year student at the University of California, San Diego studying Electrical Engineering with a specialization in Machine Learning and Controls. My research interests include medical robotics and autonomous surgical systems."
-          imageUrl: "picture.jpeg"
+          imageUrl: "leonarudo_waving.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: resume
-              url: resume/
+            - name: experience
+              url: experience/
             - name: research
               url: research/
             - name: about
@@ -64,9 +64,9 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:user@gmail.com
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
+          url: mailto:emmaymhuang@gmail.com
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/emmahuang3815/
         - name: GitHub
           url: https://github.com/emmah-3815
 
