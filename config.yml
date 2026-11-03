@@ -15,8 +15,8 @@ menu:
         - name: experience
           url: experience/
           weight: 1 
-        - name: about
-          url: about/
+        - name: publications
+          url: publications/
           weight: 2
 
 params:
@@ -34,7 +34,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["experience","about"]
+    MainSections: ["experience","publications"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,8 +52,8 @@ params:
           buttons:
             - name: experience
               url: experience/
-            - name: about
-              url: about/
+            - name: publications
+              url: publications/
 
     socialIcons:
         - name: CV

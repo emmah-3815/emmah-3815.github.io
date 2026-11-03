@@ -1,7 +1,5 @@
 ---
-title: "About"
-hidemeta: true
-description: "About Emma Huang."
+title: "Emma Huang"
 ---
 
 I am a fourth year Electrical Engineering student at the University of California, San Diego, specializing in Machine Learning and Controls. My research focuses on medical robotics and autonomous surgical systems, working at the Advanced Robotics Controls Lab under the mentorship of Zih-Yun Chiu and Michael Yip. I have published and presented work on autonomous suturing, thread manipulation, and needle insertion at venues including IEEE/RSJ IROS. I also have experience in PCB design, RF engineering and embedded systems.
@@ -26,15 +24,4 @@ I am a fourth year Electrical Engineering student at the University of Californi
 - **Mar. 2024:** Joined the **Scripps Sandbox Makerspace** as a Makerspace Technician.
 - **Sep. 2023:** Joined **SEDS UCSD** on the Lander Project avionics team.
 - **Jun. 2023:** Joined the Motion Predictive Controls Lab at UC Berkeley.
-<!-- 
-> **Event Template:**  
-> `- **[Month. Year]:** [Event description / paper / award / talk with links]` -->
 
----
-
-## Contact
-
-- **Email:** [emmaymhuang@gmail.com](mailto:emmaymhuang@gmail.com)
-- **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?user=fSDXsqEAAAAJ&hl=en&oi=ao)
-- **LinkedIn:** [linkedin.com/in/emmahuang3815](https://www.linkedin.com/in/emmahuang3815/)
-- **GitHub:** [github.com/emmah-3815](https://github.com/emmah-3815)

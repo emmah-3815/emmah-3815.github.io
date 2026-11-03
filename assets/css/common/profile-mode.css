@@ -47,6 +47,12 @@
     background: var(--lightcolor);
 }
 
+.home-content {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0 var(--gap);
+}
+
 /* Research Publications Section - Jon Barron Style */
 .research-section {
     width: 100%;

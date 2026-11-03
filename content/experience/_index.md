@@ -4,7 +4,7 @@ hidemeta: true
 description: "Emma Huang's professional and academic experience."
 ---
 
-## Academic Experience
+## Academic
 
 **Advanced Robotics Controls Lab** | Mar 2024–Present  
 *Undergraduate Researcher* | La Jolla, CA  
@@ -34,7 +34,7 @@ description: "Emma Huang's professional and academic experience."
 
 ---
 
-## Professional Experience
+## Professional
 
 **ExtremeWaves** | May 2025–Jul 2025  
 *Electrical Engineering Intern (RF Power PCB Design)* | San Diego, CA  
@@ -66,7 +66,7 @@ description: "Emma Huang's professional and academic experience."
 
 ---
 
-## Volunteer Experience
+## Volunteer
 
 **Envision Makerspace, UC San Diego** | Oct 2023–Apr 2024  
 *Makerspace Staff* | San Diego, CA  
