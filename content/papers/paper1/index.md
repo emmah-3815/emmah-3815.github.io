@@ -1,17 +1,17 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "Reeling It In: Flexible Needle Pick Up via Thread Manipulation for Autonomous Suturing" 
+date: 2026-07-01
+tags: ["robotics","autonomous suturing","surgical robotics","thread manipulation","computer vision"]
+author: ["Emma Huang","Zih-Yun Chiu","Neelay Joglekar","Shanglei Liu","Michael C. Yip"]
+description: "This paper presents a method for flexible needle pick up via thread manipulation for autonomous suturing. Published at IEEE/RSJ IROS, 2026." 
+summary: "Image to robot motion pipeline for autonomous needle pick up: SAM segmentation → point cloud reconstruction (RAFT-stereo) → 3D B-Spline fitting → intersection/reliability calculations → grasping goal selection → robot motion planning. 61% full pipeline success, 91% reconstruction success." 
 cover:
     image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    alt: "Flexible Needle Pick Up via Thread Manipulation"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
+    URL: "https://arxiv.org/abs/2607.26337"
+    Text: "IEEE/RSJ IROS 2026"
 
 ---
 
@@ -20,37 +20,28 @@ editPost:
 ##### Download
 
 + [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
++ [arXiv](https://arxiv.org/abs/2607.26337)
 
 ---
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
----
-
-##### Figure 6: Some Uses For Olive Oil
-
-![](paper1.png)
+Image to robot motion pipeline written in Python and C++ on the da Vinci Research Kit (dVRK): SAM segmentation → point cloud reconstruction (RAFT-stereo) → 3D B-Spline fitting → Open3D integration → intersection/reliability calculations → dependency aware grasping goal selection → robot motion planning. Achieved 61% full pipeline success and 91% reconstruction success. Accepted to IROS 2026.
 
 ---
 
 ##### Citation
 
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
+Huang, Emma, Zih-Yun Chiu, Neelay Joglekar, Shanglei Liu, and Michael C. Yip. 2026. "Reeling It In: Flexible Needle Pick Up via Thread Manipulation for Autonomous Suturing." *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*.
 
 ```latex
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
+@article{huang2026reelinginflexibleneedle,
+      title={Reeling It In: Flexible Needle Pick Up via Thread Manipulation for Autonomous Suturing}, 
+      author={Emma Huang and Zih-Yun Chiu and Neelay Joglekar and Shanglei Liu and Michael C. Yip},
+      year={2026},
+      journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      url={https://arxiv.org/abs/2607.26337},
+}
 ```
 
 ---
@@ -58,4 +49,3 @@ url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
 ##### Related material
 
 + [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)

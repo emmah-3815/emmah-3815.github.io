@@ -12,26 +12,19 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: resume
+          url: resume/
           weight: 5 
-        - name: Papers
-          url: papers/
+        - name: research
+          url: research/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: about
+          url: about/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
     description: "This website hosts Emma Huang's research papers, curriculum vitae, resume and contact information."
     author: Emma Huang
-    # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -44,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["research","CV","resume","contact"]
+    MainSections: ["resume","research","about"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,49 +48,27 @@ params:
     profileMode:
           enabled: true
           title: Emma Huang
-          subtitle: "I am a forth year student at the University of California, San Diego. I am studying electrical engineering with an interest in medical robotics."
+          subtitle: "I am a fourth year student at the University of California, San Diego studying Electrical Engineering with a specialization in Machine Learning and Controls. My research interests include medical robotics and autonomous surgical systems."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: resume
+              url: resume/
+            - name: research
+              url: research/
+            - name: about
+              url: about/
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
           url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=user
         - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
+          url: https://github.com/emmah-3815
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +76,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Emma Huang"
       icon: favicon.ico
       iconHeight: 18
 

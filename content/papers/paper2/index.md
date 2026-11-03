@@ -1,17 +1,17 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+title: "Integrated Respiratory Sensing and Gated Control for Autonomous Needle Insertion Via CT Bore Robotic Arm" 
+date: 2026-10-01
+tags: ["robotics","autonomous needle insertion","CT guided","respiratory sensing","medical robotics"]
+author: ["Emma Huang*","Moira Bohley*","Krishna Jamakhandi**","Rebecca Fellbaum**","Sophia Tang","Sean Tutton","Albert Hsiao","Alexander Norbash","Changwei Chen","Derek Chen","Ananya Rao","Lizzie Peiros","Michael C. Yip"]
+description: "This paper presents integrated respiratory sensing and gated control for autonomous needle insertion via CT bore robotic arm. Under review, 2026." 
+summary: "Led a team of 12 researchers to design and build a torso phantom and needle insertion testbed. Achieved 29.8% reduction in breath tracking error and successful needle insertions across all trials. */** denote equal contribution." 
 cover:
     image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    alt: "Autonomous Needle Insertion Via CT Bore Robotic Arm"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    URL: "https://arxiv.org/abs/2610.30452"
+    Text: "Under review"
 
 ---
 
@@ -20,42 +20,26 @@ editPost:
 ##### Download
 
 + [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk-model)
++ [arXiv](https://arxiv.org/abs/2610.30452)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
----
-
-##### Figure 2: Dimensions of a sausage dog
-
-![](paper2.png)
+Led a team of 12 undergraduates, Masters, and PhD students. Designed and built a torso phantom and needle insertion testbed. Resulted in 29.8% reduction in breath tracking error and successful needle insertions across all trials. Under review for ICRA 2027. */** denote equal contribution.
 
 ---
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
+Huang, Emma\*, Moira Bohley\*, Krishna Jamakhandi\*\*, Rebecca Fellbaum\*\*, Sophia Tang, Sean Tutton, Albert Hsiao, Alexander Norbash, Changwei Chen, Derek Chen, Ananya Rao, Lizzie Peiros, and Michael C. Yip. 2026. "Integrated Respiratory Sensing and Gated Control for Autonomous Needle Insertion Via CT Bore Robotic Arm." *Under review*.
 
 ```latex
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
+@article{huang2026ct,
+      title={Integrated Respiratory Sensing and Gated Control for Autonomous Needle Insertion Via CT Bore Robotic Arm}, 
+      author={Emma Huang and Moira Bohley and Krishna Jamakhandi and Rebecca Fellbaum and Sophia Tang and Sean Tutton and Albert Hsiao and Alexander Norbash and Changwei Chen and Derek Chen and Ananya Rao and Lizzie Peiros and Michael C. Yip},
+      year={2026},
+      journal={In review},
+      url={https://arxiv.org/abs/2610.30452}, 
+}
 ```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)

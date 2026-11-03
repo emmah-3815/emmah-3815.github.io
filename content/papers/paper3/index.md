@@ -1,17 +1,17 @@
 ---
-title: "Your Inner Hedgehog" 
-date: 2021-04-06
-tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
-description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
-summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
+title: "Live Thread Reconstruction for Autonomous Manipulation" 
+date: 2026-10-15
+tags: ["robotics","thread reconstruction","autonomous manipulation","surgical robotics","workshop"]
+author: ["Emma Huang","Omar Hernandez","Zih-Yun Chiu","Michael Yip"]
+description: "This paper presents live thread reconstruction for autonomous manipulation. Published at IROS DOM-R3 Workshop, 2026." 
+summary: "Workshop paper on live thread reconstruction methods for autonomous manipulation tasks in surgical robotics." 
 cover:
     image: "paper3.png"
-    alt: "Vizualisation of an inner hedgehog"
+    alt: "Live Thread Reconstruction"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Socio-Experimental Psychology"
+    URL: "https://arxiv.org/abs/2610.30694"
+    Text: "IROS DOM-R3 Workshop 2026"
 
 ---
 
@@ -20,33 +20,26 @@ editPost:
 ##### Download
 
 + [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/michez-rule)
++ [arXiv](https://arxiv.org/abs/2610.30694)
 
 ---
 
 ##### Abstract
 
-Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure. Mauris tincidunt quam a libero consequat, nec pharetra nunc tristique. Pellentesque eget ipsum ut dui laoreet congue ut nec nulla. Nulla facilisi. Sed consequat, odio ac aliquet tempor, turpis augue auctor mauris, at malesuada sem dolor eget libero. Nullam iaculis malesuada risus, id fringilla quam sagittis ac. Fusce congue vel ex et facilisis. Integer volutpat eros ut urna efficitur, id efficitur sapien pharetra.
+Live thread reconstruction methods for autonomous manipulation tasks in surgical robotics, presented at the IROS DOM-R3 Workshop.
 
 ---
 
 ##### Citation
 
-Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. "Your Inner Hedgehog." *Journal of Socio-Experimental Psychology* 131 (2): 1299–1302.
+Huang, Emma, Omar Hernandez, Zih-Yun Chiu, and Michael Yip. 2026. "Live Thread Reconstruction for Autonomous Manipulation." *IROS DOM-R3 Workshop*.
 
 ```latex
-@article{SZI21,
-author = {Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld},
-year = {2021},
-title ={Your Inner Hedgehog},
-journal = {Journal of Socio-Experimental Psychology},
-volume = {131},
-number = {2},
-pages = {1299--1302}}
+@article{huang2026live,
+      title={Live Thread Reconstruction for Autonomous Manipulation}, 
+      author={Emma Huang and Omar Hernandez and Zih-Yun Chiu and Michael Yip},
+      year={2026},
+      journal={IROS DOM-R3 Workshop},
+      url={https://arxiv.org/abs/2610.30694}, 
+}
 ```
-
----
-
-##### Related material
-
-+ [Nontechnical summary](https://www.alexandermccallsmith.com/book/your-inner-hedgehog)

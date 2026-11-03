@@ -1,0 +1,187 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[style=ieee, sorting=ydnt, maxnames=99]{biblatex}
+\addbibresource{ref.bib}
+
+\defbibenvironment{bibliography}
+  {\list{\textbullet}
+     {\setlength{\leftmargin}{1.3em} % Matches standard bullet point indentation
+      \setlength{\labelwidth}{1em}
+      \setlength{\labelsep}{0.5em}
+      \setlength{\itemindent}{0pt}
+      \setlength{\itemsep}{\bibitemsep}
+      \setlength{\parsep}{\bibparsep}}}
+  {\endlist}
+  {\item}
+% --------------------------------------------------
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% Setup hyperlink colors and formatting
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Format section headers (Removes the left bar, adds an underline)
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.2em}{0.6em}
+
+% Custom command for experience entries
+% #1 = Company/Organization (Left)
+% #2 = Date (Right)
+% #3 = Position/Title (Left)
+% #4 = Location (Right)
+\newcommand{\resumeHeading}[4]{
+  \vspace{0.15cm}
+  \noindent\textbf{#1} \hfill #2 \\
+  \noindent\textit{#3} \hfill \textit{#4} \par\vspace{0.1cm}
+}
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}\vspace{-9pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\begin{document}
+
+% Personal Information Header
+\begin{center}
+    {\huge \textbf{Emma Huang}} \\ \vspace{0.2cm}
+    B.S. Electrical Engineering - ML and Controls \\ \vspace{0.15cm}
+    510-960-9858 $|$ \href{mailto:emmaymhuang@gmail.com}{emmaymhuang@gmail.com} $|$ \href{https://www.linkedin.com/in/emmahuang3815/}{LinkedIn} $|$ \href{https://github.com/emmah-3815}{GitHub} $|$ \href{https://docs.google.com/presentation/d/1wNdAtZ6k15xTbGFjD3lpOGhukgIPgvWrV_NMGGackeU/edit?usp=sharing}{Portfolio}
+\end{center}
+
+\section{Education}
+\resumeHeading{University of California, San Diego}{2023--2027}{B.S. Electrical Engineering}{San Diego, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item \textbf{Degree Specialization:} Machine Learning and Controls (GPA: 3.961)
+    \item \textbf{Honors:} Provost Honors (all quarters with 12+ graded units); Philip and Elizabeth Hiestand Scholarship
+    % \item \textbf{Campus Involvement:} SEDS UCSD Engineer; ARClab Researcher; SEDSxFEMxTR Mentor; Scripps Sandbox Makerspace Staff
+\end{itemize}
+
+\section{Publications}
+\vspace{0.2em}
+\textit{*/** denote equal contribution}
+\nocite{*} % This tells LaTeX to print everything in the .bib file without needing inline \cite{} commands
+\printbibliography[heading=none] % Prints the list without adding a default "References" title
+
+\section{Presentations}
+\resumeHeading{Undergraduate Research Conference}{Apr 2026}{}{La Jolla, CA}
+\resumeItemListStart
+    \resumeItem{Presented: \textit{What is an effective method to autonomously pick up suture needles?}}
+\resumeItemListEnd
+
+\resumeHeading{Summer Research Conference (SRC)}{Aug 2026}{}{La Jolla, CA}
+\resumeItemListStart
+    \resumeItem{Presented: \textit{How can robots suture autonomously?}}
+\resumeItemListEnd
+
+\resumeHeading{IEEE/RSJ IROS}{Sept 2026}{}{Pittsburgh, PA}
+\resumeItemListStart
+    \resumeItem{Paper: \textit{Reeling It In: Flexible Needle Pick Up via Thread Manipulation for Autonomous Suturing}}
+\resumeItemListEnd
+
+\section{Professional Experience}
+
+\resumeHeading{ExtremeWaves}{May 2025--Jul 2025}{Electrical Engineering Intern (RF Power PCB Design)}{San Diego, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Design, manufacture and test high performance, 800 MHz \textbf{microcontroller} life support \textbf{PCBs} with \textbf{Cadence Allegro}; multi channel \textbf{SPI} interface; multi-power supply time sensitive boot up and shut down sequence; high frequency impedance control; quick verification and iterations.
+    \item Designed three \textbf{RF}, \textbf{differential signal} six layer boards with tight \textbf{impedance and length matching}.
+\end{itemize}
+
+\resumeHeading{Fabric8labs}{Jun 2024--Aug 2024}{Electrical Engineering Intern (Current Sensor Design \textendash{} PCB Testing)}{La Jolla, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Debugged and repaired 30+ \textbf{copper metal 3D printer} controller PCBs comparable to \textbf{\$15,000+}; troubleshooting and root cause analysis on signals (\textbf{I2C, CAN, UART}), power supplies, relays, sensors, and \textbf{FPGA} (Kria) components.
+    \item Improved \textbf{JupyterLab} printer Python \textbf{testing scripts} used to \textbf{recover printer controller PCBs} with \textbf{automated} board failure detection; Developed \textbf{user interface} for the testing scripts with IPyWidgets.
+    \item Designed, tested, and implemented current and voltage sensors with \textbf{Altium} into fleet of 40+ printer controller PCBs with \textbf{PICO} and \textbf{C++}; \textbf{Software debugging} and repository update for the printhead controllers.
+\end{itemize}
+
+\resumeHeading{Scripps Sandbox Makerspace}{Mar 2024--Mar 2025}{Makerspace Technician}{La Jolla, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Improve and maintain makerspace infrastructure including the setup of 3D-printers, custom shelving, safety infrastructures, etc.
+    \item Technical consultation for Scripps faculty and UCSD affiliates; Organize collaborations with Scripps faculty, campus organizations, student clubs, and more.
+    \item Developed, organized, and led 15 person mood lamp workshop teaching CAD, soldering, and 3D-printing; 8 person plastic leather workshop teaching heat press, recycling, leather crafting, and design; Assisted workshops teaching laser cutting, drilling, and Inkscape (2D drawing).
+\end{itemize}
+
+\resumeHeading{ECE 15 - Intro to C Programming}{Jan 2025--Mar 2025}{Tutor and Reader}{La Jolla, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item 10 hours of tutoring sessions per week.
+    \item Guide students on introductory C programming coding assignments.
+\end{itemize}
+
+\resumeHeading{University of California - Berkeley (ADTP)}{Jul 2023}{Substitute Teacher}{Berkeley, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Advanced Robotics Engineering; two sessions; 3.5 hr each; 24 students; 7/8/9th grade.
+    \item Assisted students' final projects including robotics arm gripper, self balancing robot, and line tracing race car.
+    \item Kept students engaged; answered technical questions; communicated logistics with teacher and staff.
+\end{itemize}
+
+\section{Academic Experience}
+
+\resumeHeading{Advanced Robotics Controls Lab}{Mar 2024--Present}{Undergraduate Researcher}{La Jolla, CA}
+\vspace{-0.1cm}
+\textit{\small Mentors: Zih-Yun Chiu, Michael Yip}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=4pt]
+    \item Developed and optimized physics simulation of realistic nylon and cotton suture thread simulation with physics based XPBD method; physical constraints for distance, bend, and twist for thread behavior.
+    \item \textbf{Reeling It In: Flexible Needle Pick Up via Thread Manipulation for Autonomous Suturing:} Image to robot motion pipeline written in Python and C++ on the da Vinci Research Kit (dVRK): SAM segmentation $\rightarrow$ point cloud reconstruction (RAFT-stereo) $\rightarrow$ 3D B-Spline fitting $\rightarrow$ Open3D integration $\rightarrow$ intersection/reliability calculations $\rightarrow$ dependency aware grasping goal selection $\rightarrow$ robot motion planning. 61\% full pipeline success, 91\% reconstruction success. \textit{Accepted to IROS 2026}.
+    \item \textbf{Real Time Thread Reconstruction and Surgical Manipulation Tasks:} Autonomous thread reconstruction improving on prior work with autonomous segmentation, keypoint ordering, and real-time tracking$\rightarrow$manipulation strategies for needle pick up, thread untangling, and tightening. \textbf{25.8\% improvement} in needle pick up trials, and average \textbf{88.9\% success} on task completion. \textit{Under review for RAL journal}.
+    \item \textbf{Autonomous Needle Insertion for Lung Tumor Biopsy:} Led a \textbf{team of 12} undergraduates, Masters, and PhD students; Designed and built a torso phantom and needle insertion \textbf{testbed}. Resulted in 29.8\% reduction in breath tracking error and successful needle insertions across all trials. \textit{Under review for ICRA 2027}.
+\end{itemize}
+
+\resumeHeading{SEDS UCSD (Lander Project)}{Sep 2023--Jun 2026}{Director of Electrical (2025), Avionics Lead (2024), Avionics Member (2023)}{San Diego, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Design and built active \textbf{buck boost converter} (30A/24V) for high power gimbal and valves power on \textbf{Lander} - \textbf{bi-propellant LOX-LNG sounding vehicle}.
+    \item \textbf{Avionics} system integration, engine control unit, power control unit, flight computer; \textbf{Altium} and \textbf{EAGLE} circuit design and \textbf{Fusion 360} circuit housing.
+    \item Firmware controls for throttle valve actuation with \textbf{C} on \textbf{Arduino}; \textbf{Zephyr RTOS} firmware programming.
+\end{itemize}
+
+\resumeHeading{Motion Predictive Controls Lab - UC Berkeley}{Jun 2023--Sep2023}{Research Assistant}{Berkeley, CA}
+\textit{\small Mentor: Tony Zheng}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Built on pre-existing robot infrastructure to develop new algorithms for image processing and implementation on robot arms. 
+    \item Implemented motion capture controls on Fanuc and Universal robotic manipulators with Ridgeback and Turtlebot drive bases; tested motions using Gazebo, Rviz, robosuite, and universal robots simulations; wrote python and C++ code for robotic manipulator sketching on tabletop and canvas; fixed and improved robotic manipulator visualization and simulation.
+\end{itemize}
+% \noindent
+% \textbf{Team 5419, Berkeley High} \hfill Aug 2021 -- Jun 2023 \\
+% \textit{FIRST Robotics Competition Lead Designer and Drive Coach} \hfill \textit{Berkeley, CA}
+% \begin{itemize}
+%     \item Designed scoring mechanisms and system integration; fast prototyping and testing in six weeks; metal and plastic manufacturing.
+%     \item Drive coach of 2023 season at Canada, SF, Sacramento, Houston Champs and 2022 off season CalGames.
+%     \item Formulated game strategy with three team alliance pre-match; high pressure, fast decision making during matches.
+%     \item Balanced work loads for design team members with different skill sets (10 members).
+% \end{itemize}
+% \vspace{0.5em}
+
+\resumeHeading{Lawrence Berkeley National Laboratory}{Jun 2022--Aug 2022 }{Machine Learning Intern}{Berkeley, CA}
+\textit{\small Advisor: Doru Thom Popovici}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Researched the effect of different computer chips and network architecture in convolutional neural networks (CNN) using TensorFlow and PyTorch frameworks on the CIFAR-10 dataset; coding in Python and C++. 
+    \item Results showed TensorFlow framework with a higher accuracy, while PyTorch had up to 4 times faster processing speeds.
+\end{itemize}
+
+\section{Volunteer Experience}
+
+\resumeHeading{Envision Makerspace, UC San Diego}{Oct 2023--Apr 2024}{Makerspace Staff}{San Diego, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Assist students with soldering, 3D-printing, laser cutting, wiring, debugging, and shop tools.
+    \item Maintenance of shop equipment.
+\end{itemize}
+
+\resumeHeading{SEDSxFEMxTR}{Aug 2024--Jun 2025}{Mentee 2023, Mentor 2024}{San Diego, CA}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, parsep=0pt, topsep=2pt]
+    \item Provide technical, educational, and community mentorship to first year female engineers to increase retention rate of engineers of diverse gender backgrounds.
+    \item Weekly community discussions, one-on-one meetings, professional events.
+\end{itemize}
+
+\end{document}
