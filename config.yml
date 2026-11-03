@@ -65,6 +65,8 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:emmaymhuang@gmail.com
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=fSDXsqEAAAAJ&hl=en&oi=ao
         - name: LinkedIn
           url: https://www.linkedin.com/in/emmahuang3815/
         - name: GitHub
