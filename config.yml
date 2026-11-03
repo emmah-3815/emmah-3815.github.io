@@ -46,7 +46,7 @@ params:
           enabled: true
           title: Emma Huang
           subtitle: "I am a fourth year student at the University of California, San Diego studying Electrical Engineering with a specialization in Machine Learning and Controls. My research interests include medical robotics and autonomous surgical systems."
-          imageUrl: "leonarudo_waving.png"
+          imageUrl: "profile_pic.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -74,8 +74,8 @@ params:
         hiddenInSingle: true
     label:
       text: "Emma Huang"
-      icon: favicon.ico
-      iconHeight: 18
+      icon: "leonarudo_waving.png"
+      iconHeight: 28
 
 markup:
     goldmark:
