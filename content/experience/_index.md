@@ -4,15 +4,6 @@ hidemeta: true
 description: "Emma Huang's professional and academic experience."
 ---
 
-## Education
-
-**University of California, San Diego** | 2023–2027  
-*B.S. Electrical Engineering* | San Diego, CA  
-- **Degree Specialization:** Machine Learning and Controls (GPA: 3.961)  
-- **Honors:** Provost Honors (all quarters with 12+ graded units); Philip and Elizabeth Hiestand Scholarship  
-
----
-
 ## Professional Experience
 
 **ExtremeWaves** | May 2025–Jul 2025  
@@ -86,4 +77,3 @@ description: "Emma Huang's professional and academic experience."
 *Mentee 2023, Mentor 2024* | San Diego, CA  
 - Provide technical, educational, and community mentorship to first year female engineers to increase retention rate of engineers of diverse gender backgrounds.  
 - Weekly community discussions, one-on-one meetings, professional events.  
-

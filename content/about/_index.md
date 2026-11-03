@@ -8,9 +8,17 @@ I am a fourth year Electrical Engineering student at the University of Californi
 
 ---
 
+## Education
+
+**University of California, San Diego** | 2023–2027  
+*B.S. Electrical Engineering* | San Diego, CA  
+- **Degree Specialization:** Machine Learning and Controls (GPA: 3.961)  
+- **Honors:** Provost Honors (all quarters with 12+ graded units); Philip and Elizabeth Hiestand Scholarship  
+
+---
+
 ## Contact
 
 - **Email:** [emmaymhuang@gmail.com](mailto:emmaymhuang@gmail.com)
 - **LinkedIn:** [linkedin.com/in/emmahuang3815](https://www.linkedin.com/in/emmahuang3815/)
 - **GitHub:** [github.com/emmah-3815](https://github.com/emmah-3815)
-

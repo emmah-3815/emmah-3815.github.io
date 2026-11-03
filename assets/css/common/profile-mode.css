@@ -5,10 +5,10 @@
 }
 .main .profile {
     align-items: center;
-    min-height: calc(100vh - var(--footer-height) - (var(--gap) * 2));
+    min-height: auto;
     font-size: var(--homesize);
     line-height: var(--lineheight);
-    padding: var(--gap);
+    padding: var(--gap) var(--gap) 1rem var(--gap);
 }
 
 .profile .profile_inner {
@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    width: 100%;
 }
 
 .profile .profile_inner h1 {
@@ -44,4 +45,155 @@
 
 .button:hover {
     background: var(--lightcolor);
+}
+
+/* Research Publications Section - Jon Barron Style */
+.research-section {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0 var(--gap);
+}
+
+.research-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    color: var(--primary);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.research-subtitle {
+    font-size: 0.95rem;
+    color: var(--secondary);
+    margin-bottom: 1.25rem;
+}
+
+.publication-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1.25rem;
+}
+
+.publication-row {
+    transition: background 0.2s ease;
+}
+
+.publication-row:hover {
+    background: var(--entry);
+    border-radius: var(--radius);
+}
+
+.publication-thumb {
+    width: 25%;
+    min-width: 150px;
+    max-width: 200px;
+    padding: 12px 20px 12px 8px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.publication-thumb img {
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    display: block;
+    object-fit: cover;
+}
+
+.publication-details {
+    padding: 12px 8px 12px 0;
+    vertical-align: top;
+}
+
+.papertitle {
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.papertitle:hover {
+    text-decoration: underline;
+}
+
+.publication-details .authors {
+    margin-top: 5px;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    color: var(--content);
+}
+
+.publication-details .authors .author-note {
+    font-size: 0.88rem;
+    color: var(--secondary);
+    font-style: italic;
+    margin-left: 4px;
+}
+
+.publication-details .venue {
+    margin-top: 3px;
+    font-style: italic;
+    font-size: 0.92rem;
+    color: var(--secondary);
+}
+
+.publication-details .paper-links {
+    margin-top: 6px;
+    font-size: 0.92rem;
+}
+
+.publication-details .paper-links a {
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: underline;
+    margin-right: 8px;
+}
+
+.publication-details .paper-links a:hover {
+    color: var(--darkcolor);
+}
+
+.publication-details .paper-explanation {
+    margin-top: 8px;
+    font-size: 0.93rem;
+    line-height: 1.55;
+    color: var(--content);
+}
+
+@media (max-width: 680px) {
+    .publication-table,
+    .publication-table tbody,
+    .publication-row {
+        display: block;
+        width: 100%;
+    }
+
+    .publication-row {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .publication-thumb {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 0 10px 0;
+        text-align: left;
+    }
+
+    .publication-thumb img {
+        max-width: 200px;
+    }
+
+    .publication-details {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
 }
