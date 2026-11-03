@@ -14,13 +14,10 @@ menu:
     main:
         - name: experience
           url: experience/
-          weight: 5 
-        - name: research
-          url: research/
-          weight: 2
+          weight: 1 
         - name: about
           url: about/
-          weight: 3
+          weight: 2
 
 params:
     description: "This website hosts Emma Huang's research papers, curriculum vitae, resume and contact information."
@@ -37,7 +34,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["experience","research","about"]
+    MainSections: ["experience","about"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,8 +52,6 @@ params:
           buttons:
             - name: experience
               url: experience/
-            - name: research
-              url: research/
             - name: about
               url: about/
 
